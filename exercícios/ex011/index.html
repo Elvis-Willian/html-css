@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagens e Áudio</title>
+</head>
+<body>
+    <h1>Teste de imagens Fexíveis</h1>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+    <img src="imagens/imagem-g.png" alt="imagem flexível">
+</picture>
+<H1>Testando áudio</H1>
+<audio preload="metadata" controls>
+    <source src="midia/thats what it takes-nefeex.mp3" type="audio/mp3">   
+</audio>
+<p>Para baixar a música <a href="midia/thats what it takes-nefeex.mp3" download="midia/thats what it takes-nefeex.mp3" type="audio/mp3">clique aqui</a></p>
+<audio preload="metadata" controls>
+    <source src="midia/neffeex.mp3" type="audio/mp3">
+</audio>
+
+</body>
+</html>

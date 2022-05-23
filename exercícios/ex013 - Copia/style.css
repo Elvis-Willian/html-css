@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(170, 161, 194);
+            color: rgb(236, 102, 102);                    
+        }
+        h1{
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           color: crimson;
+           font-size: 35px;
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            font-size: 15px;
+        }
