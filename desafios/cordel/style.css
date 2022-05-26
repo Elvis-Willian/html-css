@@ -28,12 +28,11 @@ html, body{
 header {
     background-color: black;
     color: white;
-    height: 200px;
 }
 
 header h1 {
     font-family: 'Passionone-bold';
-    font-size: 2.5em;
+    font-size: 8vw;
     font-variant: small-caps;
     text-align: center;
     padding-top: 70px;
@@ -42,6 +41,7 @@ header h1 {
 header p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    padding-bottom: 70px;
 }
 
 a {
@@ -53,7 +53,7 @@ a:hover{
 }
 section {
     font-family: 'Sriracha';
-    font-size: 1.4em;
+    font-size: 3vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
@@ -70,7 +70,7 @@ section#imagem1 {
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.342);
     color: white;
-    width: 280px;
+    width: 50vw;
     padding-left: 10px;
 }
 
