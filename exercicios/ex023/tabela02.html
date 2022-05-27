@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            
+        }
+        thead{
+            background-color: rgb(160, 157, 157);
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        th, td{
+            border: 1px solid black;
+        }
+        td.num{
+              text-align: right;
+        }
+        tfoot{
+            background-color: rgb(184, 183, 183);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Grande</h1>
+    <table>
+        <caption>Total de Habitantes no dois Estados brasileiros</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:100px ;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">25 453 376</td>
+            </tr>
+            <tr>
+                <td>xxxxx</td>
+                <td class="num">99 999 999</td>
+            </tr>
+            <tr>
+                <td>yyyyy</td>
+                <td class="num">77 777 777</td>
+            </tr>
+            <tr>
+                <td>zzzzzz</td>
+                <td class="num">55 555 555</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">0000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
