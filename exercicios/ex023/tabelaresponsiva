@@ -1,0 +1,6 @@
+Tabela Responsiva
+
+Selecione toda a Table, crie uma div em todo o conteúdo
+Na div crie um Id=container
+Vá no style, crei uma tag div#container
+adicione overflow-x: auto;
